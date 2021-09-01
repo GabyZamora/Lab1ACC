@@ -1,0 +1,66 @@
+	body { 
+	font-family: 'Quattrocento', sans-serif; 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover;
+	margin: 0; 
+
+	}
+
+	.nav{
+		background-color: #a9ccd1;
+	}
+
+	.content{
+		display: flex;
+		justify-content: space-around;
+
+	}
+	.header{
+		background: black;
+		width: 100%;
+		display: table;
+	}
+
+	.nav p{
+		color: black;
+		font-family: 'Quattrocento';
+		font-size: 25px;
+		letter-spacing: 10px;
+	}
+	.content ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	.content ul li{
+		display: inline-block;
+
+
+	}
+
+	.content ul li a{
+		color: black;
+		display: block;
+		padding: 10px 60px;
+		font-family: 'Quattrocento';
+		font-size: 30px;
+		border-radius: 5px;
+		text-decoration: none;
+		margin-top: 40px;
+		margin-left: 250px;
+	
+
+	}
+
+	.content ul li a:hover{
+		background-color: #d1a9b8;
+	}
+
+	.content img{
+		width: 400px;
+		height: 110px;
+	}
+
+
